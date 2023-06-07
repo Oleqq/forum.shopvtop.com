@@ -1,0 +1,755 @@
+
+.firstscreen__button-left a:hover {
+   
+}
+a:hover {
+    color:#fff !important;
+}
+
+.firstscreen__button-right a::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:60px; 
+    padding:2px; 
+    background: linear-gradient(91.17deg, #63A5FF 1.24%, #ED30FF 35.32%, #FF4A64 68.34%, #F5FF8C 103.49%);
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+    mask-composite: exclude; 
+    
+  }
+
+  .firstscreen__button-right a:hover {
+    background: linear-gradient(91.17deg, #63A5FF 1.24%, #ED30FF 35.32%, #FF4A64 68.34%, #F5FF8C 103.49%);
+    border-radius: 60px;
+    
+    
+  }
+
+.header__tel a{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+.header__tel a:hover{
+    transition: 0.15s ease-in;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(91.17deg, #63A5FF 1.24%, #ED30FF 35.32%, #FF4A64 68.34%, #F5FF8C 103.49%);
+}
+
+
+.firstscreen-subtitle {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F8DE85;
+}
+
+.firstscreen__h1 {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.firstscreen__h1 h1 span {
+    background: linear-gradient(91.17deg, #63A5FF 1.24%, #ED30FF 35.32%, #FF4A64 68.34%, #F5FF8C 103.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.firstscreen__h6 {  
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* first screen info  */
+
+.firstscreen__info-top {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.firstscreen__info-bot {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #7D7A99;
+
+}
+
+/* firstscreen buttons block */
+
+.firstscreen__button-left a {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+.firstscreen__button-right a {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+/* firstscreen video block */
+
+.firstscreen_video-subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #7D7A99;
+}
+
+.firstscreen__video-timer {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.firstscreen-timer {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F8D583;
+}
+
+.firstscreen__title {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* go marketplace section */
+
+.gomarketplace__card-title {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.gomarketplace__card-subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #918CB5;    
+}
+.gomarketplace__card-button {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.section__title {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.section__title span {
+    background: linear-gradient(91.17deg, #63A5FF 1.24%, #ED30FF 35.32%, #FF4A64 68.34%, #F5FF8C 103.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.gomarketplace__card-button a{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* benefits section  */
+.benefits {
+
+}
+.benefits__cards-wrapper{
+
+}
+.benefits__card {
+
+}
+.benefits__card-img {
+
+}
+.benefits__card-title {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.benefits__card-subtitle {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #918CB5;
+}
+
+/* price section */
+
+.second-price__section-title {
+    display: flex;max-width: 470px;flex-direction: column;justify-content: center;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.second-price__section-title span {
+    background: linear-gradient(91.17deg, #63A5FF 1.24%, #ED30FF 35.32%, #FF4A64 68.34%, #F5FF8C 103.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.price__title-base {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.price__title-standart{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.price__title-business{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.price__title-premium{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.price__until {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #F8D583;
+}
+.price__price {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+.price__notification {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+}
+.price__benefits {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #918CB5;
+}
+.price__button-buy {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* why go banner section */
+.whygo__cell-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+.whygo__cell-number {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 67px;
+    /* identical to box height */
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #F8D583;
+}
+
+/* organizator banner section */
+.organizator__geopos-subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #7D7A99;
+
+}
+.organizator__geopos-title {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+
+/* 4 themes section */
+.big__four {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 334px;
+    line-height: 414px;
+    display: flex;
+    align-items: center;
+    transform: rotate(-20.24deg);
+
+    background: linear-gradient(91.17deg, #63A5FF 1.24%, #ED30FF 35.32%, #FF4A64 68.34%, #F5FF8C 103.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.fourtheme__subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+.fourtheme__grid-item-title-1 {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #67A2FF;
+
+    text-align: left;
+}
+.fourtheme__grid-item-title-2 {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    color: #EE32F8;
+
+    text-align: left;
+}
+.fourtheme__grid-item-title-3 {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    color: #FD4877;    
+
+    text-align: left;
+}
+.fourtheme__grid-item-title-4 {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    color: #F8DE85;   
+
+    text-align: left;
+}
+.fourtheme__benefits ul li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+
+    color: #918CB5;
+
+    text-align: left;
+}
+
+/* marketplace section */
+
+.section__subtitle {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;    
+}
+
+/* marketplace section */
+.marketplace__percentage {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #63A5FF;
+
+    color: #F7E086;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.marketplace__percentage p {
+    font-size: 10px;
+}
+.marketplace__subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #918CB5;
+}
+
+/* speakers section */
+.avatar__name {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+}
+.avatar_desc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #918CB5;
+}
+
+/* ifyou section */
+
+.ifyou__grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-gap: 20px;
+}
+
+.ifyou__title {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.ifyou__benefits-li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #918CB5;
+    
+}
+.ifyou__digits {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 160px;
+    line-height: 198px;
+    display: flex;
+    align-items: center;
+
+    color: #151325;
+}
+
+/* special guest section */
+
+.specialguest__subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #918CB5;
+}
+
+/* buy ticket section */
+
+.buyticket__form-checkbox p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #918CB5;
+} 
+
+.underform-timer {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F8D583;
+}
+
+.underform__title {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.underform__title span {
+    background: linear-gradient(91.17deg, #63A5FF 1.24%, #ED30FF 35.32%, #FF4A64 68.34%, #F5FF8C 103.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+/* footer section */
+
+.footer__wrapper-bottom a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #7D7A99;
+}

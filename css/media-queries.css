@@ -1,0 +1,394 @@
+@media screen and (max-width:1399px) {
+    .price__button-buy {
+        margin: 0 10px 10px 20px;
+    }
+    .specialguest__inkognito-img img {
+        height: 650px;
+    }
+}
+@media screen and (max-width:1199px) {
+    .price__button-buy {
+        margin: 0 10px 10px 30px;
+        padding: 16px 35px 19px 38px;
+    }
+    .running-text-4 {
+        bottom: 735px;
+    }
+    .specialguest__subtitle {
+        margin-bottom: 30px;
+    }
+    .specialguest__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .specialguest__img {
+        position: absolute;
+    }
+    .firstscreen__button-left {
+        justify-content: center !important;
+    }
+    .buyticket__underform-wrapper {
+        flex-direction: column;
+    }
+    .underform__title {
+        text-align: center;
+    }
+    .gomarketplace__cards-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+  
+    }
+    .running-text-2 {
+        bottom: 1050px;
+    }
+    .running-text-6 {
+        top: 550px;
+ 
+    }
+    .specialguest__inkognito-img img {
+        height: 576px;
+    }
+}
+
+
+@media screen and (max-width:1195px) {
+    .gomarketplace__cards-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+  
+    }
+    .benefits__cards-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .running-text-2 {
+        bottom: 1050px;
+    }
+}
+@media screen and (max-width:1074px) {
+    .modal__wrapper {
+        width: 100%;
+      }
+    
+}
+@media screen and (max-width:991px) {
+    .organizator__grid-container {
+        justify-items: unset !important;
+    }
+    .fourtheme__title {
+        flex-direction: column;
+        gap: 0;
+    }
+    .section__title {
+        text-align: center;
+    }
+    .section__subtitle {
+        text-align: center;
+    }
+    .fourtheme__name {
+        margin-bottom: 50px;
+    }
+    .fourtheme__subtitle {
+        text-align: center;
+    }
+
+    .marketplace__grid-container {
+        grid-template-columns: unset;
+        grid-gap: 50px;
+        justify-content: center;
+    }
+    .second-price__section-title {
+        justify-content: center;
+        text-align: center;
+        max-width: unset !important
+    ;
+        margin-bottom: 40px;
+    }
+    .row {
+        justify-content: center !important;
+    }
+    .running-text-3 {
+        bottom: 1000px;
+    }
+    .buyticket__form-input {
+        flex-direction: column;
+    }
+    .specialguest__img img {
+        bottom: 2%;
+    }
+    .specialguest__inkognito-img img {
+        height: 760px;
+        opacity: 0.3;
+        
+    }
+}
+
+@media screen and (max-width:810px) {
+    .gomarketplace__cards-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+  
+    }
+    .benefits__cards-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .running-text-2 {
+        bottom: 1500px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .price__button-buy {
+        margin: 0 10px 10px 13px;
+        padding: 16px 70px 19px 69px;
+    }
+    .firstscreen__button-left a{
+        padding: 15px;
+    }
+    .firstscreen__button-right a{
+        padding: 15px;
+    }
+    .section__title {
+        font-size: 34px;
+    }
+    .specialguest__inkognito-img img {
+        height: 777px;
+        
+        
+    }
+    
+    
+}
+@media screen and (max-width:575px) {
+    .price__button-buy {
+        margin: 0 auto;
+        padding: 16px 70px 19px 69px;
+    }
+    .price__card {
+        text-align: center;
+    }
+    .price__button-buy {
+        position: relative;
+        top: 80px;
+    }
+    .running-text-3 {
+        bottom: 1700px;
+    }
+    .section__title {
+        font-size: 34px;
+    }
+    .specialguest__inkognito-img img {
+        height: 552px;
+        
+        
+    }
+}
+@media screen and (max-width:575px) {
+    .section__title {
+        font-size: 28px;
+    }
+    .underform-timer {
+        font-size: 40px;
+        gap: 20px;
+    }
+    .header__badges-group1 {
+        display: none;
+    }
+    .footer__contacts {
+        gap: 30px;
+    }
+    .footer__wrapper-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ifyou__grid-item {
+        padding: 25px;
+    }
+    .firstscreen-timer {
+        font-size: 40px;
+        gap: 20px;
+    }
+    .running-text {
+        transform: unset;
+        max-width: unset;
+        margin: unset;
+    }
+    .running-text-2 {
+        transform: unset;
+        max-width: unset;
+        margin: unset;
+    }
+    .running-text-3 {
+        transform: unset;
+        max-width: unset;
+        margin: unset;
+    }
+    .section__title {
+        line-height: 32px;
+    }
+
+}
+@media screen and (max-width:550px) {
+    .specialguest__inkognito-img img {
+        height: 616px; 
+    }
+    
+}
+@media screen and (max-width:501px) {
+    .specialguest__inkognito-img img {
+        height: 635px; 
+    }
+    
+}
+@media screen and (max-width:523px) {
+    .running-text-4 {
+        bottom: 935px;
+    }
+    .firstscreen__button {
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .firstscreen__info-wrapper {
+        gap: 10px;
+        margin-right: 10px;
+    }
+    .firstscreen {
+        margin-bottom: 50px;
+    }
+    .specialguest__alibaba-img img {
+        bottom: 2%;
+        right: 36%;
+    }
+
+}
+
+@media screen and (max-width:435px) {
+    .section__title {
+        font-size: 28px;
+    }
+    .whygo__item {
+        position: relative;
+        right: 40px;
+    }
+    .underform-timer {
+        font-size: 30px;
+        gap: 4px;
+    }
+    .firstscreen-timer {
+        font-size: 30px;
+        gap: 20px;
+    }
+    .underform__title {
+        font-size: 34px;
+    }
+    .ifyou__grid-item {
+        height: 400px;
+
+    }
+    .specialguest__alibaba-img img {
+        bottom: 2%;
+        right: 35%;
+    }
+}
+
+@media screen and (max-width:413px) {
+    .gomarketplace__card {
+        max-width: 310px;
+    }
+    .gomarketplace__card-img img {
+        max-width: 310px;
+    }
+    .ifyou__grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    .big__four {
+        font-size: 204px;
+    }
+
+    .organizator__grid-container {
+    position: relative;
+    right: 40px;
+}
+}
+
+@media screen and (max-width:375px) {
+    .section__title {
+        font-size: 20px;
+    }
+    .underform-timer {
+        flex-direction: column;
+    }
+    .firstscreen__info {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .specialguest__img img {
+        width: 200px;
+    }.specialguest__inkognito-img img {
+        height: 690px; 
+    }
+}
+
+@media screen and (max-width:360px) {
+    .section__title {
+        font-size: 20px !important;
+    }
+    .underform-timer {
+        flex-direction: column;
+    }
+    .fourtheme__grid-item {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .fourtheme__grid-item-title-1 {
+        font-size: 18px;
+    }
+    .fourtheme__grid-item-title-2 {
+        font-size: 18px;
+    }
+    .fourtheme__grid-item-title-3 {
+        font-size: 18px;
+    }
+    .fourtheme__grid-item-title-4 {
+        font-size: 10px;
+    }
+    .second-price__section-title {
+        font-size: 34px;
+        
+    }
+    .big__four {
+        font-size: 100px;
+    }
+    .ifyou__grid-item {
+        height: 450px;
+    }
+    .gomarketplace__card {
+        max-width: 230px;
+    }
+    .gomarketplace__card-img img {
+        max-width: 210px;
+    }
+    .running-text-4 {
+        bottom: 1435px;
+    }
+    .footer__wrapper-bottom {
+        flex-direction: column;
+    }
+    .gomarketplace__card-button {
+        padding: 16px 46px 16px 44px;
+    }
+    .gomarketplace__card-title {
+        font-size: 15px;
+   
+    }
+    .whygo__item {
+        position: relative;
+        right: 60px;
+    }
+}
+@media screen and(max-width:353px) {
+    
+}
